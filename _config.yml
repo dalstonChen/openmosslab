@@ -1,6 +1,6 @@
 # Site settings
 title: "OpenMoss Lab"
-subtitle: "Fudan University"
+subtitle: ""
 description: "The OpenMoss Lab at Fudan University focuses on large language models, multimodal learning, embodied AI, and contextual intelligence."
 baseurl: "/openmosslab" # the subpath of your site, e.g. /blog
 url: "https://dalstonchen.github.io" # the base hostname & protocol for your site
@@ -8,11 +8,11 @@ url: "https://dalstonchen.github.io" # the base hostname & protocol for your sit
 # Organization info
 organization:
   name: "OpenMoss Lab"
-  full_name: "OpenMoss Lab - Fudan University"
-  institution: "Fudan University"
-  department: "School of Computer Science"
-  location: "Shanghai, China"
-  email: "xpqiu@fudan.edu.cn"
+  full_name: "OpenMoss Lab"
+  location1: "3 Lane 699, Huafa Road, Xuhui District"
+  location2: "Building 2X, No. 2005 Songhu Road, Yangpu District"
+  city: "Shanghai, China"
+  
 
 # Social links
 social:
