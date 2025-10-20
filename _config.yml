@@ -43,13 +43,14 @@ exclude:
   - node_modules
   - vendor
   - README.md
+  - SETUP.md
+  - QUICKSTART.md
+  - PROJECT_SUMMARY.md
+  - ARCHITECTURE.md
+  - DEPLOYMENT_CONFIG.md
+  - FIXES_APPLIED.md
   - content.txt
-
-# Collections
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+  - "The Stanford Natural Language Processing Group_files"
 
 defaults:
   - scope:

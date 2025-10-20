@@ -6,7 +6,7 @@ This is the official website for the OpenMoss Lab at Fudan University, built wit
 
 This website uses a clean separation between content and presentation:
 
-- **Content**: All page content is stored in Markdown files in the `_content/` directory and `index.md`
+- **Content**: All page content is stored in Markdown files in the root directory (`index.md`, `people.md`, `career.md`, etc.)
 - **Layout**: HTML templates are in `_layouts/` and reusable components in `_includes/`
 - **Styling**: CSS is in `assets/css/main.css`
 - **Configuration**: Site settings are in `_config.yml`
@@ -44,12 +44,14 @@ openmosslab/
 ├── _includes/              # Reusable components
 │   ├── header.html         # Navigation bar
 │   └── footer.html         # Footer
-├── _content/               # Markdown content files
-│   ├── people.md
-│   ├── resources.md
-│   ├── career.md
-│   └── join.md
-├── index.md                # Homepage content
+├── Content Pages (Markdown in root)
+│   ├── index.md            # Homepage content
+│   ├── people.md           # People page
+│   ├── publications.md     # Publications page
+│   ├── software.md         # Software page
+│   ├── resources.md        # Resources page
+│   ├── career.md           # Career page
+│   └── join.md             # Join page
 ├── assets/
 │   ├── css/
 │   │   └── main.css       # Custom styles
@@ -66,14 +68,14 @@ openmosslab/
 
 ### To update page content:
 
-1. Navigate to the appropriate Markdown file in `_content/` or edit `index.md` for the homepage
+1. Navigate to the appropriate Markdown file in the root directory (e.g., `people.md`, `career.md`, `index.md`)
 2. Edit the content using standard Markdown syntax
 3. Commit and push your changes
 4. GitHub Actions will automatically rebuild and deploy the site
 
 ### Adding new pages:
 
-1. Create a new Markdown file in `_content/` with front matter:
+1. Create a new Markdown file in the root directory with front matter:
    ```yaml
    ---
    layout: page
@@ -86,11 +88,11 @@ openmosslab/
 
 ### Updating faculty/people information:
 
-Edit `_content/people.md` to update the people listings.
+Edit `people.md` to update the people listings.
 
 ### Updating career opportunities:
 
-Edit `_content/career.md` to update job postings and recruitment information.
+Edit `career.md` to update job postings and recruitment information.
 
 ## Local Development
 
@@ -127,8 +129,7 @@ This site uses GitHub Actions for automatic deployment:
 3. The built site is deployed to GitHub Pages
 
 ### Deployment triggers:
-- Any changes to content files in `_content/`
-- Changes to `index.md`
+- Any changes to content Markdown files (`*.md`) in the root directory
 - Changes to layouts, includes, or assets
 - Changes to `_config.yml`
 
