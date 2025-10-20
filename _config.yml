@@ -1,0 +1,58 @@
+# Site settings
+title: "OpenMoss Lab"
+subtitle: "Fudan University"
+description: "The OpenMoss Lab at Fudan University focuses on large language models, multimodal learning, embodied AI, and contextual intelligence."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Organization info
+organization:
+  name: "OpenMoss Lab"
+  full_name: "OpenMoss Lab - Fudan University"
+  institution: "Fudan University"
+  department: "School of Computer Science"
+  location: "Shanghai, China"
+  email: "xpqiu@fudan.edu.cn"
+
+# Social links
+social:
+  github: "https://github.com/openmosslab"
+  twitter: "https://twitter.com/openmosslab"
+
+# Navigation
+navigation:
+  - title: "people"
+    url: "/people/"
+  - title: "publications"
+    url: "/publications/"
+  - title: "software"
+    url: "/software/"
+  - title: "resources"
+    url: "/resources/"
+  - title: "career"
+    url: "/career/"
+  - title: "join"
+    url: "/join/"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - content.txt
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

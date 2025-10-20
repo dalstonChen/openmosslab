@@ -1,0 +1,357 @@
+/* OpenMoss Lab Styles - Based on Stanford NLP Design */
+
+/* Color Scheme - Red theme inspired by Stanford */
+:root {
+  --primary-color: #8C1515;
+  --primary-dark: #6B0F0F;
+  --accent-color: #B83A4B;
+  --text-color: #2e2d29;
+  --text-light: #5e5e5e;
+  --bg-light: #f7f7f7;
+  --bg-highlight: #fafafa;
+  --border-color: #e0e0e0;
+}
+
+/* Base Typography */
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h1 { font-size: 36px; }
+h2 {
+  font-size: 28px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+h3 { font-size: 22px; margin-top: 30px; }
+h4 { font-size: 18px; margin-top: 25px; }
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* Layout Containers */
+.widewrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.content {
+  padding: 40px 0;
+}
+
+/* Navigation Bar */
+.grove-navbar {
+  background-color: #fff;
+  border-bottom: 3px solid var(--primary-color);
+  margin-bottom: 0;
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 4px 15px;
+}
+
+.navbar-brand h3 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.grove-navbar .navbar-nav > li > a {
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 30px 15px;
+  text-transform: lowercase;
+}
+
+.grove-navbar .navbar-nav > li > a:hover,
+.grove-navbar .navbar-nav > li.active > a {
+  color: var(--primary-color);
+  background-color: transparent;
+}
+
+.grove-toggle {
+  margin-top: 23px;
+}
+
+/* Page Title Section */
+.pagetitle {
+  background-color: var(--bg-light);
+  border-bottom: 1px solid var(--border-color);
+  padding: 30px 0;
+  margin-bottom: 0;
+}
+
+.pagetitle h1 {
+  color: var(--primary-color);
+  font-size: 42px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Content Sections */
+.weak-highlight {
+  background-color: #fff;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul ul {
+  list-style-type: circle;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.grove-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.grove-list li {
+  margin-bottom: 10px;
+}
+
+/* People Cards */
+.person-card {
+  background-color: var(--bg-highlight);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  min-height: 120px;
+}
+
+.person-card h4 {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.person-card p {
+  color: var(--text-light);
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Images */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-thumbnail {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--text-color);
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #ccc;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .grove-list li {
+  margin-bottom: 8px;
+}
+
+.indent30 {
+  padding-left: 0;
+}
+
+.footer .small {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* Info Block */
+.info {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-brand h3 {
+    font-size: 16px;
+  }
+
+  .pagetitle h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .content {
+    padding: 20px 0;
+  }
+
+  .person-card {
+    min-height: auto;
+  }
+}
+
+/* Utility classes */
+.hidden-xs {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+  .hidden-sm, .hidden-md, .hidden-lg, .hidden-xl {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hidden-sm, .hidden-md, .hidden-lg, .hidden-xl {
+    display: none !important;
+  }
+}
+
+/* Paragraphs in content */
+section p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+}
+
+/* Strong emphasis */
+strong {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+/* Horizontal rules */
+hr {
+  border: 0;
+  border-top: 2px solid var(--border-color);
+  margin: 40px 0;
+}
+
+/* Code blocks (if needed) */
+code {
+  background-color: var(--bg-light);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+  font-size: 13px;
+}
+
+pre {
+  background-color: var(--bg-light);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--primary-color);
+  padding-left: 20px;
+  margin-left: 0;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: var(--bg-light);
+  font-weight: 600;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid var(--border-color);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--bg-highlight);
+}

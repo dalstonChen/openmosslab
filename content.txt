@@ -1,0 +1,240 @@
+
+
+
+
+Page 1: Lab Page
+OpenMoss Lab
+Welcome to our lab! 😆
+
+🧑‍🏫 Faculties
+
+
+Xipeng Qiu 
+Professor
+Lab Director
+
+Xinchi Chen
+Professor
+
+
+Yining Zheng
+Assistant Professor
+
+
+Shuang Chen
+Assistant Professor
+
+Tao Ji
+Assistant Professor
+
+Ziwei He
+Assistant Professor
+
+Jingjing Gong
+Assistant Professor
+
+Jinlan Fu
+Professor?
+
+Tingyou Wang
+Research Assistant
+
+
+Jiaping Yu
+Research Assistant
+ 
+🧪 About the OpenMoss Lab
+The OpenMoss Lab, led by Prof. Xipeng Qiu at Fudan University, originated as part of the FudanNLP group, with a strong foundation in Natural Language Processing. Over time, the lab has significantly broadened its scope, now encompassing large language models, multimodal learning, embodied AI, and beyond. 
+Our mission is to advance the theory, methods, and applications of large-scale AI systems—from pretraining and reasoning to multimodal and embodied intelligence—while grounding our research in real-world applications and products that make a lasting impact.
+Achievements
+Pioneering LLM development in China: Released MOSS, one of the earliest open-source conversational LLMs in China.
+Influential open-source contributions: Developed widely adopted NLP toolkits such as FudanNLP, FastNLP, and the CoLLiE framework for efficient LLM fine-tuning.
+Strong industry collaborations: Joint projects with Huawei, Honor, ByteDance, and other leading companies in large-scale model training and deployment.
+Global recognition: Lab alumni have continued their studies at top universities, including MIT, UC Berkeley, and CMU, or joined leading companies such as ByteDance, Alibaba, AWS, Optiver, and other top quant firms.
+Academic excellence: Publications at top-tier venues such as NeurIPS, ICML, ICLR, ACL, EMNLP, NAACL, and ICCV, with several receiving Outstanding Paper Awards.
+Talent cultivation: Multiple PhD graduates have secured faculty positions at Fudan University, Shanghai Jiao Tong University, and Shanghai AI Lab, or been selected as national-level young talents. Others have become entrepreneurs and executives (CEO/CTO) in LLM startups.
+Research Interests
+Our work covers a broad range of topics in large-scale AI and contextual intelligence, including but not limited to:
+AI Infrastructure
+Optimizers (e.g., LOMO, AdaLomo)
+LLM fine-tuning frameworks (e.g., CoLLiE)
+Inference optimization for scalable deployment
+Multimodal Large Models
+Speech-language models (SpeechGPT, SpeechTokenizer, SpeechAlign)
+Vision-language understanding and reasoning (AnyGPT, Visuothink, UnifiedVisual)
+Unified multimodal generation and alignment
+Reinforcement Learning & Deep Reasoning in LLMs
+Reasoning-enhanced dialogue and search agents (Exchange-of-Thought, ConvSearch-R1)
+Exploration of test-time scaling and implicit reward optimization
+Tools and Agents
+Tool-augmented LLMs (UnifiedToolHub, FamilyTool, R3-RAG)
+Real-world simulation environments (VehicleWorld)
+Embodied Intelligence
+Vision-language-action reasoning (VLA-bench, D²PO)
+Task planning with embodied agents
+New Architectures
+Diffusion-based LLMs (Sparse-dLLM, LongLLaDA)
+Long-context modeling (LongWanjuan, LongSafety)
+Memory-efficient KV-cache methods and transformer variants
+Mechanistic Interpretability
+Dictionary learning & circuits
+Attention decomposition and low-rank analysis
+Pretraining & Post-training of LLMs
+Large-scale pretraining (MOSS, InternLM series)
+Data synthesis and decontamination
+Weak-to-strong generalization strategies
+🚀 Why Join the OpenMoss Lab!
+Are you passionate about Generative AI, LLM-driven agents, Trustworthy AI, Human-AI Collaboration, or Embodied AI? Do you want to work on cutting-edge research that not only advances theory but also powers real products with real-world impact? If so, we invite you to join the FudanNLP Contextual Intelligence (OpenMoss) Lab!
+
+At OpenMoss, we are more than just a research group—we are a community. We believe that transformative research thrives in an environment where people feel supported, motivated, and inspired. Our mission goes beyond top-tier publications: we aim to bridge the gap between research and practice, turning ideas into technologies that shape the future.
+
+At OpenMoss, you will:
+Work on cutting-edge LLM research with real-world applications.
+Be mentored by world-class faculty and senior PhD students.
+Access state-of-the-art computing resources (NVIDIA 3090/4090, A800, H100).
+Collaborate with leading tech companies on impactful projects.
+Become part of a community where groundbreaking research meets real-world innovation.
+
+If you are eager to push boundaries, tackle challenging problems, publish in leading venues, and see your research come to life in impactful products—while being part of a collaborative and supportive team—we would love to have you on board! 🚀
+🌟 Our Lab Culture
+The OpenMoss Lab is founded on the belief that groundbreaking research emerges from an environment of trust, collaboration, and shared growth. These values shape our culture:
+🤝 Collaboration & Mentorship – We learn from one another, whether you are an undergraduate intern or a senior researcher. No one advances alone—progress is always a team effort.
+🚀 Ambition & Impact – We aim to push the frontiers of AI, from large language models to embodied intelligence, with research that leads to real-world systems and lasting impact.
+💡 Creativity & Exploration – Curiosity drives innovation. We embrace bold, unconventional ideas and encourage exploration across disciplines and modalities.
+📚 Excellence with Support – Our shared goal is to publish at top AI/ML and interdisciplinary venues. From brainstorming to experiments to writing, we support each other at every stage.
+🎯 Ownership & Growth – Every member is empowered to take initiative, lead projects, and develop their own research identity, while contributing to the broader mission of the lab.
+🌍 Belonging – We welcome students from diverse backgrounds, believing that varied perspectives spark stronger and more innovative research. No matter where you come from, you belong here.
+At the OpenMoss Lab, you are never alone in your research journey—we work together, grow together, and celebrate each other’s successes.
+
+🏹 Who Should Apply?
+The OpenMoss Lab is looking for passionate undergraduate interns, master’s, PhD students, and self-funded visiting students/scholars who want to push the boundaries of AI research and see their work drive real impact.
+We are looking for people who have:
+🔹 Strong Teamwork Skills
+In the era of large-scale models, impactful research is rarely done alone—it requires collaboration. We value proactive communication, clear documentation, and a rigorous approach to teamwork.
+Dedication and commitment to producing high-impact results
+Proficiency with Git for both personal code management and team collaboration
+Ability to document work clearly (e.g., using Feishu Docs or Markdown) to facilitate collaboration and knowledge sharing
+We recommend a document-style CV that highlights substance over design
+🔹 Research or Programming Foundations
+We welcome students from diverse backgrounds, but candidates with prior experience will be given priority. Some examples of valuable skills:
+Programming foundations (any of the following is a plus):
+Deep understanding of the Transformer architecture
+Participation in programming or algorithm competitions (NOIP, NOI, ACM, etc.)
+Core contributions to open-source projects
+Experience with large-scale parallel computing or system operations
+Research foundations (any of the following is a plus):
+Proficiency with PyTorch or similar frameworks for training neural networks
+Familiarity with LLMs (e.g., GPT-4, Claude, DeepSeek) and some prompt engineering experience
+Strong English reading ability for academic papers, and solid skills in literature search and information gathering
+Prior experience with paper submission (authorship not required)
+Previous involvement in research projects (able to clearly explain your role and contributions)
+🔹 Exceptional Ability to Learn New Knowledge
+ (If you demonstrate this, other requirements can be secondary!)
+A genuine passion for continuous learning and research
+Ability to quickly grasp new concepts and connect them to broader ideas (you should be able to demonstrate this in interviews)
+💡 How to Apply?
+IMPORTANT: We expect applicants to complete some of our recommended resources in advance—this may include selected courses, problem sets, or curated readings.
+
+If you are interested in working with us, please first read the instructions above and fill out this form. Due to the high volume of requests, we apologize in advance for not being able to reply to every inquiry!
+
+
+Page 3 Resources (@郑逸宁）
+Resources
+A curated set of high-quality resources for students and researchers.
+Before Applying to Join Our Team
+Research
+Advising
+Technical
+
+Page 4 Students
+大家可以把自己的变动，比如毕业、入学、转博、转硕、换工作、换主页等，自行做个pr。
+Current students只包含姓名、本科or硕士or博士、个人主页链接，不包含哪一年入学的。
+Alumni包含姓名、个人主页链接、起止日期、个人成就、毕业去向、现工作单位等信息，可作为个人推广的重要途径。
+Current Students (in alphabetical order)
+Alumni
+
+Page 5 (Optional) Career
+如果有招聘需求，可以放这里，比如招助理、博后、Lectures、Faculties.
+
+Postdoctoral Positions at CoIN Lab, Fudan University
+The CoIN Lab at Fudan University is recruiting postdoctoral researchers on an ongoing basis to support our research initiatives.
+Research Areas:
+AI Infrastructure
+Pretraining of Large Language Models
+Multimodal Large Models
+Speech Large Models
+Embodied Intelligence
+Applicant Requirements:
+PhD in Computer Science, Software, Electronics, Automation, Mathematics, or related fields.
+PhD degree from a domestic or international top university, with graduation within the last 3 years.
+Age under 35 years.
+Preference for candidates with high-quality publications in AI or experience leading/participating in relevant projects.
+Strong creativity and innovation, with enthusiasm for technical R&D.
+High sense of responsibility and excellent teamwork skills.
+Salary and Benefits:
+Compensation and benefits follow Fudan University postdoctoral regulations, including competitive salaries, preferential access to Fudan postdoctoral housing, and benefits similar to university staff (e.g., children’s schooling and daycare).
+Eligible for national and municipal postdoctoral programs:
+“BoXin Program”: ¥400,000 annual salary, ¥200,000 research funds, ¥30,000 academic exchange funds.
+“Talent Introduction Program”: ¥380,000–¥400,000 annual salary plus ¥200,000 research funds.
+Shanghai Super Postdoctoral Program: ¥280,000–¥300,000 per year.
+Fudan Super Postdoctoral Program: ¥230,000–¥280,000 per year, with a selection rate of 50%.
+Other postdocs: ¥180,000–¥200,000 per year.
+Additional lab-based stipends are awarded based on individual research progress and contributions.
+Excellent research resources and stable support are provided.
+The university considers postdoctoral researchers as an important source for faculty and professional technical staff.
+Additional Opportunities:
+CoIN Lab also offers jointly funded postdoctoral positions with top enterprises, including Pazhou Lab and Huawei, with salaries and benefits equivalent to full-time employees. Postdocs can choose to stay in the company or apply for academic positions upon completion.
+How to Apply:
+Send your application to xpqiu@fudan.edu.cn
+Use the email subject line: "Postdoctoral Application – Name – Field – University"
+Attach your CV and specify your research interests.
+Shortlisted candidates will be contacted for further review.
+For more details, please refer to the Fudan University Human Resources Office website.
+
+Graduate Admissions at CoIN Lab (Updated August 2025)
+Target Applicants:
+We primarily recruit students who are passionate about scientific research and practical applications in large-scale AI. Ideal candidates are curious, proactive, dedicated to research or development, hardworking, and resilient. Students who are only seeking a degree for convenience or easier job placement should not apply.
+In 2025, our main recruitment areas include large model pretraining, AI infrastructure, new architectures, multimodal fusion, agents, and embodied intelligence. Interested students are welcome to contact us.
+Important Notes:
+(a) Internships: Except for project collaboration recommendations, students are not allowed to participate in any form of internship before Year 3 of the master’s program or Year 5 of the PhD. Students planning early internships should not apply.
+(b) Engineering Tasks: Graduate students in our lab are expected to participate in engineering tasks as needed. Those unwilling to engage in such work should not apply.
+Admissions Overview:
+Master’s Program:
+Number of positions depends on research funding. In the past three years: 1 academic master, 1–2 recommended professional masters, ~10 exam-admitted professional masters per year.
+In daily research, we do not differentiate between academic and professional masters, and all have the opportunity to transfer to the PhD program.
+PhD Program:
+Number of positions depends on research funding. In the past three years: 2–3 PhD positions per year.
+I also recruit direct-PhD students at Shanghai Chuangzhi Institute, jointly trained with Fudan University, with no limit on positions. In addition to passing the Fudan interview, applicants must pass the Shanghai Chuangzhi Institute admission exam. It is recommended to secure a Shanghai Chuangzhi Institute offer before applying to the Fudan Summer Camp.
+Application Channels:
+ (a) Summer Camp: Must first pass the school-level preliminary review. Upon receiving the camp invitation, contact me (other inquiries can also be sent directly). We will arrange a short lab-level interview. In previous years, the success rate for academic masters through summer camp was ~10%. Our lab usually admits 2–3 students (academic + professional masters).
+ (b) Autumn Recommended Admission: Must first pass the school-level preliminary review. Upon receiving the interview notice, contact me. A lab-level interview will be arranged. Typically, if positions are filled during summer camp, no further recruitment occurs in this round.
+ (c) Regular Graduate Exam Admission: Contact me after receiving the Fudan University re-examination notice. A lab-level interview will be arranged.
+Lab-Level Interview:
+Usually conducted before the school interview.
+Focus is on research potential, engineering ability, personality, and teamwork.
+Students who complete nlp-beginner with high quality are prioritized.
+We especially welcome students interested in AI algorithm deployment and system implementation with a dedicated research mindset.
+Early Lab Entry:
+To help students secure suitable positions, we encourage students to start internships after Year 2.
+Year 1 courses are heavy, leaving limited time for research output, so we prefer students to join the lab early.
+External recommended students are encouraged to conduct their graduation project at Fudan (most previous students have done so).
+Based on performance, students may be selected for internships at ByteDance, Huawei, Shanghai AI Lab, Meituan, etc. (all previous interns have received full-time offers).
+Graduate Support:
+To provide a supportive learning and research environment, the lab offers competitive stipends in addition to school subsidies, aligned with other top research units.
+Professional masters may receive housing subsidies.
+Students participating in industry collaboration projects receive additional research allowances.
+Research & Engineering Assistant Recruitment (July 2025, Ongoing)
+The CoIN Lab at Fudan University is recruiting Research & Engineering Assistants on a long-term basis to support our research projects. Compensation is negotiable.
+Job Description:
+Participate in LLM engineering and development projects in the lab.
+Strong engineering experience and proficiency in Python.
+Candidates familiar with PyTorch and with prior NLP project development experience are preferred.
+Dedicated, meticulous, and passionate about research and development.
+How to Apply:
+Send your application to xpqiu@fudan.edu.cn
+Use the email subject: "Application – Research & Engineering Assistant – Your Name"
+Attach your CV.
+Shortlisted candidates will be contacted for further review.
+
+
+

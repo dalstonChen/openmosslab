@@ -1,0 +1,47 @@
+<footer class="widewrapper footer">
+  <div class="container">
+    <div class="row footer">
+
+      <div class="col-sm-3">
+        <h4>{{ site.organization.name }}</h4>
+        {{ site.organization.institution }}<br>
+        {{ site.organization.department }}<br>
+        {{ site.organization.location }}<br>
+        <a href="mailto:{{ site.organization.email }}">Contact</a>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="indent30">
+          <h4>Affiliated Groups</h4>
+          <ul class="grove-list">
+            <li><a href="https://ai.stanford.edu/">Stanford AI Lab (SAIL)</a></li>
+            <li><a href="https://hai.stanford.edu/">Stanford HAI</a></li>
+            <li><a href="https://crfm.stanford.edu/">Center for Research on Foundation Models</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="indent30">
+          <h4>Connect</h4>
+          <ul class="grove-list">
+            <li><a href="{{ site.social.github }}">GitHub</a></li>
+            <li><a href="{{ site.social.twitter }}">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="indent30">
+          <h4>Resources</h4>
+          <div class="small" style="text-align:left">
+            <a href="{{ '/resources/' | relative_url }}">Reading List</a><br>
+            <a href="{{ '/software/' | relative_url }}">Software & Tools</a><br>
+            <a href="{{ '/publications/' | relative_url }}">Publications</a><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
