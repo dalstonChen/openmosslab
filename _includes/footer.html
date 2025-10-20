@@ -4,9 +4,9 @@
 
       <div class="col-sm-3">
         <h4>{{ site.organization.name }}</h4>
-        {{ site.organization.institution }}<br>
-        {{ site.organization.department }}<br>
-        {{ site.organization.location }}<br>
+        {% if site.organization.location1 %}{{ site.organization.location1 }}<br>{% endif %}
+        {% if site.organization.location2 %}{{ site.organization.location2 }}<br>{% endif %}
+        {% if site.organization.city %}{{ site.organization.city }}<br>{% endif %}
         <a href="mailto:{{ site.organization.email }}">Contact</a>
       </div>
 
