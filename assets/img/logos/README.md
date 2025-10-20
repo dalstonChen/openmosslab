@@ -4,16 +4,16 @@ Place your logo files in this directory:
 
 ## Required Files
 
-- `openmoss-logo.png` - Main logo for header (144x72px recommended)
+- `openmoss-logo.png` - Main logo for header (72x72px square)
 - `group-photo-2024.jpg` - Lab group photo for homepage
 
 ## Image Guidelines
 
 ### Logo
 - **Format**: PNG with transparency preferred
-- **Size**: 144 x 72 pixels (or proportional)
+- **Size**: 72 x 72 pixels (square)
 - **Background**: Transparent or white
-- **Colors**: Should match the site's red color scheme
+- **Colors**: Should work with the site's blue color scheme (rgba(14, 65, 156))
 
 ### Group Photo
 - **Format**: JPG or PNG

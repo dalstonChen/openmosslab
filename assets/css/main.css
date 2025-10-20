@@ -1,10 +1,10 @@
 /* OpenMoss Lab Styles - Based on Stanford NLP Design */
 
-/* Color Scheme - Red theme inspired by Stanford */
+/* Color Scheme - Blue theme for OpenMoss Lab */
 :root {
-  --primary-color: #8C1515;
-  --primary-dark: #6B0F0F;
-  --accent-color: #B83A4B;
+  --primary-color: rgba(14, 65, 156, 1);
+  --primary-dark: rgba(10, 50, 120, 1);
+  --accent-color: rgba(14, 65, 156, 0.8);
   --text-color: #2e2d29;
   --text-light: #5e5e5e;
   --bg-light: #f7f7f7;
