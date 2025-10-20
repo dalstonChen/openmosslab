@@ -2,8 +2,8 @@
 title: "OpenMoss Lab"
 subtitle: "Fudan University"
 description: "The OpenMoss Lab at Fudan University focuses on large language models, multimodal learning, embodied AI, and contextual intelligence."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/openmosslab" # the subpath of your site, e.g. /blog
+url: "https://dalstonchen.github.io" # the base hostname & protocol for your site
 
 # Organization info
 organization:

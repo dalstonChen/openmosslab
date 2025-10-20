@@ -11,6 +11,27 @@ This website uses a clean separation between content and presentation:
 - **Styling**: CSS is in `assets/css/main.css`
 - **Configuration**: Site settings are in `_config.yml`
 
+## Configuration for GitHub Pages
+
+The site is configured for deployment as a **GitHub Pages project site**:
+
+- **URL**: `https://dalstonchen.github.io/openmosslab`
+- **baseurl**: `/openmosslab` (set in `_config.yml`)
+
+If you fork this repository or deploy to a different location, update these settings in `_config.yml`:
+
+```yaml
+baseurl: "/your-repo-name"  # For project pages
+url: "https://yourusername.github.io"
+```
+
+For a user/organization site (e.g., `username.github.io`), use:
+
+```yaml
+baseurl: ""  # Empty for user/org pages
+url: "https://yourusername.github.io"
+```
+
 ## Directory Structure
 
 ```
