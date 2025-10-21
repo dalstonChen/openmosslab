@@ -4,8 +4,14 @@
 
       <div class="col-sm-3">
         <h4>{{ site.organization.name }}</h4>
-        {% if site.organization.location1 %}{{ site.organization.location1 }}<br>{% endif %}
-        {% if site.organization.location2 %}{{ site.organization.location2 }}<br>{% endif %}
+        {% if site.organization.location1 %}
+        {{ site.organization.location1.name }}: {{ site.organization.location1.address }}
+        [<a href="{{ site.organization.location1.map_url }}" target="_blank">Baidu Maps</a>]<br><br>
+        {% endif %}
+        {% if site.organization.location2 %}
+        {{ site.organization.location2.name }}: {{ site.organization.location2.address }}
+        [<a href="{{ site.organization.location2.map_url }}" target="_blank">Baidu Maps</a>]<br><br>
+        {% endif %}
         {% if site.organization.city %}{{ site.organization.city }}<br>{% endif %}
         <a href="mailto:{{ site.organization.email }}">Contact</a>
       </div>
@@ -14,9 +20,9 @@
         <div class="indent30">
           <h4>Affiliated Groups</h4>
           <ul class="grove-list">
-            <li><a href="https://ai.stanford.edu/">Stanford AI Lab (SAIL)</a></li>
-            <li><a href="https://hai.stanford.edu/">Stanford HAI</a></li>
-            <li><a href="https://crfm.stanford.edu/">Center for Research on Foundation Models</a></li>
+            <li><a href="https://www.sii.edu.cn/" target="_blank">Shanghai Innovation Institute (SII)</a></li>
+            <li><a href="https://www.fudan.edu.cn/en/" target="_blank">Fudan University</a></li>
+            <li><a href="https://nlp.fudan.edu.cn/nlpen/main.htm" target="_blank">Fudan NLP Group</a></li>
           </ul>
         </div>
       </div>

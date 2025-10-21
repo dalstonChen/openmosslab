@@ -9,16 +9,22 @@ url: "https://dalstonchen.github.io" # the base hostname & protocol for your sit
 organization:
   name: "OpenMoss Lab"
   full_name: "OpenMoss Lab"
-  location1: "3 Lane 699, Huafa Road, Xuhui District"
-  location2: "Building 2X, No. 2005 Songhu Road, Yangpu District"
+  location1:
+    name: "SII"
+    address: "3 Lane 699, Huafa Road, Xuhui District"
+    map_url: "https://map.baidu.com/poi/%E4%B8%8A%E6%B5%B7%E5%88%9B%E6%99%BA%E5%AD%A6%E9%99%A2/@13519724.088723652,3630668.9841682357,12.29z?uid=687c015ca444cc32734b87ca&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&pcevaname=pc4.1&querytype=detailConInfo&da_src=shareurl"
+  location2:
+    name: "Fudan"
+    address: "Building 2X, No. 2005 Songhu Road, Yangpu District"
+    map_url: "https://map.baidu.com/poi/%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6(%E6%B1%9F%E6%B9%BE%E6%A0%A1%E5%8C%BA)/@13526909.785731716,3654927.9018901,17.22z?uid=4e6c2fbe3ee051c66e20b99b&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&pcevaname=pc4.1&querytype=detailConInfo&da_src=shareurl"
   city: "Shanghai, China"
   email: "xpqiu@fudan.edu.cn"
   
 
 # Social links
 social:
-  github: "https://github.com/openmosslab"
-  twitter: "https://twitter.com/openmosslab"
+  github: "https://github.com/OpenMOSS"
+  twitter: "https://twitter.com/search?q=%23OPENMOSS&src=hashtag_click&f=live"
 
 # Navigation
 navigation:
