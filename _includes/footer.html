@@ -4,16 +4,16 @@
 
       <div class="col-sm-3">
         <h4>{{ site.organization.name }}</h4>
-        {% if site.organization.location1 %}
-        {{ site.organization.location1.name }}: {{ site.organization.location1.address }}
-        [<a href="{{ site.organization.location1.map_url }}" target="_blank">Baidu Maps</a>]<br><br>
-        {% endif %}
-        {% if site.organization.location2 %}
-        {{ site.organization.location2.name }}: {{ site.organization.location2.address }}
-        [<a href="{{ site.organization.location2.map_url }}" target="_blank">Baidu Maps</a>]<br><br>
-        {% endif %}
-        {% if site.organization.city %}{{ site.organization.city }}<br>{% endif %}
-        <a href="mailto:{{ site.organization.email }}">Contact</a>
+        <div class="small">
+          {% if site.organization.location1 %}
+          <a href="{{ site.organization.location1.map_url }}" target="_blank">{{ site.organization.location1.name }}: {{ site.organization.location1.address }}</a><br>
+          {% endif %}
+          {% if site.organization.location2 %}
+          <a href="{{ site.organization.location2.map_url }}" target="_blank">{{ site.organization.location2.name }}: {{ site.organization.location2.address }}</a><br>
+          {% endif %}
+          {% if site.organization.city %}{{ site.organization.city }}<br>{% endif %}
+          <a href="mailto:{{ site.organization.email }}">Contact</a>
+        </div>
       </div>
 
       <div class="col-sm-3">
