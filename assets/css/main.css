@@ -76,11 +76,14 @@ a:hover {
   padding: 4px 15px;
 }
 
-.navbar-brand.logo-brand {
-  height: 60px;
-  width: auto;
-  margin: 10px 10px 10px 0;
-  padding: 0;
+/* Logo sizing to match text height */
+img.logo-brand {
+  height: 42px !important;
+  width: auto !important;
+  margin: 19px 10px 19px 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
 }
 
 .navbar-brand h3 {
@@ -88,7 +91,9 @@ a:hover {
   font-size: 20px;
   font-weight: 600;
   margin: 20px 0;
+  line-height: 42px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .grove-navbar .navbar-nav {
