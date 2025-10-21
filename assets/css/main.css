@@ -76,12 +76,23 @@ a:hover {
   padding: 4px 15px;
 }
 
+.navbar-brand.logo-brand {
+  height: 60px;
+  width: auto;
+  margin: 10px 10px 10px 0;
+  padding: 0;
+}
+
 .navbar-brand h3 {
   color: var(--primary-color);
   font-size: 20px;
   font-weight: 600;
   margin: 20px 0;
   display: inline-block;
+}
+
+.grove-navbar .navbar-nav {
+  float: right;
 }
 
 .grove-navbar .navbar-nav > li > a {
@@ -110,17 +121,30 @@ a:hover {
   margin-bottom: 0;
 }
 
+.pagetitle .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .pagetitle h1 {
   color: #ffffff;
   font-size: 48px;
   font-weight: 600;
   margin: 0;
+  padding-left: 0;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Content Sections */
 .weak-highlight {
   background-color: #fff;
+}
+
+.weak-highlight .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 section {
