@@ -116,24 +116,25 @@ img.logo-brand {
 
 .navbar-collapse {
   flex: 1 1 auto;
-  display: flex !important;
-  justify-content: flex-end;
 }
 
-.grove-navbar .navbar-collapse.collapse {
+.grove-navbar .navbar-collapse {
   display: flex !important;
+  justify-content: flex-end !important;
+  flex-direction: row !important;
 }
 
 .grove-navbar .navbar-nav {
-  float: none;
-  margin: 0;
-  display: flex;
+  float: right !important;
+  margin: 0 !important;
+  display: flex !important;
   align-items: center;
-  margin-left: auto;
+  flex-direction: row !important;
 }
 
 .grove-navbar .navbar-nav > li {
   display: inline-block;
+  float: none;
 }
 
 .grove-navbar .navbar-nav > li > a {
@@ -150,6 +151,15 @@ img.logo-brand {
 .grove-navbar .navbar-nav > li.active > a {
   color: var(--primary-color);
   background-color: transparent;
+}
+
+/* Force navbar to display on desktop */
+@media (min-width: 768px) {
+  .grove-navbar .navbar-collapse.collapse {
+    display: flex !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
 }
 
 .grove-toggle {
